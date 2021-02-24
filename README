@@ -1,3 +1,6 @@
+This is a fork of [getoptpp](https://code.google.com/archive/p/getoptpp/)
+which is based on version 2.18. 
+
 GetOpt_pp - Yet anotheer C++ version of GNU getopt.
 Copyright (C) 2007-2013
 
