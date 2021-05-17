@@ -7,7 +7,7 @@ EXAMPLES_SRCS=$(wildcard examples/example_*.cpp)
 EXAMPLES_OBJS=$(patsubst %.cpp,%.o,$(EXAMPLES_SRCS))
 EXAMPLE_BIN=$(patsubst %.cpp,%,$(EXAMPLES_SRCS))
 
-_PREFIX=$(if $(PREFIX),$(PREFIX),/usr)
+_PREFIX=$(if $(PREFIX),$(PREFIX),/usr/local)
 INSTALL_DIR=$(_PREFIX)/lib/getoptpp
 DEV_INSTALL_DIR=$(_PREFIX)/include/getoptpp
 
